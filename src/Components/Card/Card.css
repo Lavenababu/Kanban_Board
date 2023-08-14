@@ -1,0 +1,33 @@
+.card{
+    background-color: white;
+    padding: 0 10px;
+    width: 340px;
+    height: 100px;
+    border: 1px solid #e6e6e6;
+    border-radius: 7px;
+}
+
+.card_top_title{
+    color: gray;
+}
+
+.card_title{
+    font-weight: bold;
+}
+
+.card_footer{
+    display: flex;
+    gap: 10px;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.card_footer p{
+    display: flex;
+    /* gap: 5px; */
+    /* align-items: center; */
+}
+
+.card_footer_feature{
+    color: gray;
+}
